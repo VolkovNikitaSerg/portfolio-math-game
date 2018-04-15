@@ -1,0 +1,39 @@
+.header {
+    text-align: center;
+    background: $black-purple;
+    color: white;
+    margin-bottom: $s-size;
+    padding-top: $xs-size;
+}
+
+.header__title {
+    font-size: $xl-size;
+    font-weight: 400;
+    margin: 0;
+}
+
+.header__expression {
+    font-size: $l-size;
+    margin: $s-size;
+}
+
+.header__progress {
+    margin: auto;
+    max-width: 40rem;
+    border-radius: 3px/2px;
+}
+
+.header__score {
+    margin-top: $s-size;
+    padding: 0.2rem;
+    font-size: $m-size;
+    color: black;
+    background: #e0e0e0;
+    font-weight: 550;
+}
+
+@media (max-width: 40rem) {
+    .header__title {
+        font-size: 3.5rem;
+    }
+}

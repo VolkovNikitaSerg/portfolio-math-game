@@ -1,0 +1,25 @@
+.number {
+    padding: 4.5rem;
+    width: 13.5rem;
+    color: white;
+    background: rgb(147, 144, 233);
+    margin: $s-size;
+    border-radius: 1.8rem/1.5rem;
+    box-shadow: 2px 2px 2px rgb(37, 1, 1);
+    text-shadow: 0px 2px 2px rgb(37, 1, 1);
+    font-size: $l-size;
+    outline: none;
+    border: none;
+}
+
+.number:hover{
+    background: #6e5ea8;
+}
+
+@media (max-width: 33rem) {
+    .number {
+        padding: 2.6rem;
+        width:10rem;
+        margin: $xs-size;
+    }
+}

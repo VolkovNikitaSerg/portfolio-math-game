@@ -1,0 +1,21 @@
+.button {
+    background: #0a002c;
+    color: white;
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-size: $l-size;
+    border-radius: 1.2rem/1rem;
+    border: 1px solid white;
+    outline: none;
+    max-width: 35rem;
+    margin: $s-size auto;
+}
+
+.button:hover{
+    background: #0f013b;
+}
+
+.button-container {
+    margin: auto $xs-size;
+}
